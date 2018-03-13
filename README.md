@@ -1,18 +1,14 @@
-# React Single Pages Application 1.0.8
+# React-mirrorx-demo
 
-> 基于`uba` + `react` + `bee` + `mirrorx` 搭建基本快速开发脚手架，包含相关示例系统以及参照组件等
+基于`proxy-mock-middleware` +`webpack` + `react` + `bee` + `mirrorx` 搭建的一个前端项目示例，为了方便有一定react基础的猿友们进一步熟悉建立在react技术栈的实践。
 
 ### 说明
 
-- 本脚手架依赖于前端集成开发工具[ uba ](https://github.com/iuap-design/tinper-uba)，项目生成的时候需要安装全局工具命令来使用，参与开发人员无需重复安装全局使用.
+- 本项目应用了[proxy-mock-middleware](https://www.npmjs.com/package/proxy-mock-middleware)，可以进行远程服务代理以及本地数据模拟。也支持[数据模拟平台](http://yapi.demo.qunar.com/)来做数据模拟，只需要在代理配置上做一层配置，具体用法在项目中会详细说明。
 
-- 使用[数据模拟平台](https://mock.yonyoucloud.com)来做项目代码请求数据.
+- 集成市面上常规的webpack插件等配置，可以满足常规开发需求，无需繁琐复杂的配置项，简单、干净、舒服.
 
-- 集成市面上常规的使用插件等配置，可以满足常规开发需求，无需繁琐复杂的配置项，简单、干净、舒服.
-
-- 依赖强大的集成开发工具 `uba` 内置 `数据模拟`、`代理请求`、`静态托管`、`开放配置`等功能.
-
-- 方便开发人员在快速搭建`react`前端开发项目，无需学习复杂配置环境，拆箱即用.
+- 应用了阿里的mirrorx框架来做应用状态管理。
 
 ### 安装与使用
 
@@ -21,8 +17,6 @@
 2. 启动开发调试服务 `npm run dev`.
 
 3. 构建静态资源服务 `npm run build`.
-
-4. 享受集成开发工具`uba`给你带来的方便体验来开发吧！
 
 ### 特性
 
