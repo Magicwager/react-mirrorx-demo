@@ -126,7 +126,7 @@ module.exports={
       template: "./src/index.html",
       inject: "body",
       hash: false,
-      favicon: "./src/static/images/favicon.png",
+      favicon: "./src/static/images/mirror.png",
       chunks: ["vendors", "app"]
     }),
     new Jarvis({

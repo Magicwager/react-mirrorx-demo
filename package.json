@@ -4,8 +4,8 @@
   "description": "react-mirrorx",
   "private": true,
   "scripts": {
-    "dev": "webpack --config webpack.dev.config.js &&pmm",
-    "build": "uba build"
+    "dev": "pmm-server",
+    "build": ""
   },
   "author": "magicwager",
   "license": "MIT",
@@ -28,9 +28,8 @@
     "less-loader": "^4.0.6",
     "open-browser-webpack-plugin": "^0.0.5",
     "postcss-loader": "^2.1.1",
-    "proxy-mock-middleware": "^0.1.1",
+    "proxy-mock-middleware": "^1.0.3",
     "style-loader": "^0.20.2",
-    "uba": "2.3.4",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "url-loader": "^1.0.1",
     "webpack-hot-middleware": "^2.21.2",
